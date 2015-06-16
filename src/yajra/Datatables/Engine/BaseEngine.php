@@ -33,9 +33,9 @@ class BaseEngine
     public $connection;
 
     /**
-     * Query object
+     * Query builder object
      *
-     * @var Builder|QueryBuilder
+     * @var mixed
      */
     public $query;
 
@@ -500,7 +500,7 @@ class BaseEngine
     /**
      * Get Query Builder object
      *
-     * @return EloquentBuilder|QueryBuilder
+     * @return Builder|QueryBuilder
      */
     public function getBuilder()
     {
