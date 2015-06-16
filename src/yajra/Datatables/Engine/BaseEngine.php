@@ -21,6 +21,7 @@ use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Str;
 use Illuminate\View\Compilers\BladeCompiler;
 use League\Fractal\Resource\Collection;
+use League\Fractal\TransformerAbstract;
 
 class BaseEngine
 {
